@@ -96,5 +96,11 @@ cd ~
 wget http://archive.apache.org/dist/activemq/5.14.0/apache-activemq-5.14.0-bin.tar.gz
 tar xzf apache-activemq-5.14.0-bin.tar.gz
 cd apache-activemq-5.14.0
-bin/activemq console # foreground
+bin/activemq start   # daemon
+#bin/activemq console # foreground
+#bin/activemq stop    # stop
+
+# start
+cd ~/gs-messaging-jms/complete
+mvn spring-boot:run
 ```
