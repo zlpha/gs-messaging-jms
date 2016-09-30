@@ -104,3 +104,7 @@ bin/activemq start   # daemon
 cd ~/gs-messaging-jms/complete
 mvn spring-boot:run
 ```
+
+== Reference
+include::http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#jms
+include::http://docs.spring.io/spring-boot/docs/1.4.1.RELEASE/reference/htmlsingle/#boot-features-jms
