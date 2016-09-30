@@ -102,7 +102,7 @@ bin/activemq start   # daemon
 
 # start
 cd ~/gs-messaging-jms/complete
-mvn spring-boot:run
+mvn spring-boot:run -Drun.arguments="--spring.activemq.broker-url=tcp://127.0.0.1:61616"
 ```
 
 == Reference
